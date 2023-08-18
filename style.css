@@ -17,7 +17,7 @@ h3 {
   font-weight: 500;
 }
 
-p {
+ p {
   line-height: 1.5em;
   margin: 0;
   padding-top: 15px;
@@ -68,24 +68,32 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 30px 30px 0 20px;
   text-align: center;
 }
 
 .logo {
+  display: flex;
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 64px;
   color: #fff;
+  justify-content: center;
 }
 
-header nav ul li {
+header nav ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+ header nav ul li {
   list-style-type: none;
 }
 
 header nav ul li a {
   color: #fff;
-  text-decoration: none;
   padding: 0 20px 0 0;
+  text-decoration: none;
 }
 
 header nav ul li a:hover {
